@@ -1,5 +1,18 @@
-import 'package:project2/project2.dart' as project2;
+void main(){
+  /// variable declaration
+  /// datatype variable_name = value;
+   String name = "Rahul";
+   int age = 24;
+   int phone = 7012263463;
+   double mark = 6.6;
+   String email = "rayanrahul100@gmail.com";
 
-void main(List<String> arguments) {
-  print('Hello world: ${project2.calculate()}!');
+
+   print("student details");
+   print("my name is $name");
+  print("i am $age yrs old");
+   print("my phone number is $phone");
+   print("my mark is $mark");
+   print("my email is $email");
+
 }
